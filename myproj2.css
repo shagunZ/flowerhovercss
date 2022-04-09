@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+.boxes{
+    background-color: #282823;
+    justify-content: center;
+    width: 222px;
+    height: 212px;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 39px;
+}
+.box{
+    border: 3px solid black;
+    height: 194px;
+    width: 207px;
+    margin: -2px;
+    justify-content: center;
+   
+}
+/* div#box1 {
+    background-color: pink;
+}
+div#box2 {
+    background-color: hotpink;
+}
+div#box3 {
+    background-color: pink;
+}
+div#box4 {
+    background-color: hotpink;
+}
+div#box5 {
+    background-color: pink;
+}
+div#box6{
+    background-color: hotpink;
+
+
+} */
+
+
+#box6,#box4,#box2{
+    background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+    border-top-left-radius: 189px;
+    border-bottom-right-radius: 191px;
+    transition: all 4s ease-in-out 0.3s;
+}
+#box5,#box3,#box1{
+    background-image: linear-gradient( 68.3deg,  rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2% );
+    border-top-right-radius: 189px;
+    border-bottom-left-radius: 191px;
+    transition: all 2s ease-in-out 0.3s;
+}
+
+
+div#box6:hover{
+    transform: rotate(-60deg)
+} 
+
+div#box5:hover {
+    transform: rotate(120deg) 
+   
+}
+div#box4:hover {
+    transform: rotate(-180deg) 
+  
+}
+div#box3:hover {
+    transform: rotate(240deg) 
+}
+div#box2:hover {
+    transform: rotate(-300deg)
+}
+div#box1:hover {
+    transform: rotate(360deg)
+}
+
+/* #circle {
+    border: 6px solid #3f93ad;
+    height: 9px;
+    width: 8px;
+    margin: 83px;
+    border-radius: 60px;
+    background-color: #3f93ad;
+}
+#circle:hover{
+    background-image:linear-gradient(to bottom green,pink,blue);
+} */
